@@ -4,7 +4,7 @@
 
  <properties>
   <title>Java date and time API - JSP tags - Home</title>
-  <author email="scolebourne@users.sourceforge.net">Stephen Colebourne</author>
+  <author>Stephen Colebourne</author>
  </properties>
 
  <body>
@@ -40,9 +40,9 @@ Various documentation is available:
 <ul>
 <li>The user guide and tag description - <a href="userguide.html">user guide</a></li>
 <li>The javadoc for the <a href="api-release/index.html">current release</a></li>
-<li>The javadoc for the <a href="apidocs/index.html">latest in development</a></li>
+<li>The javadoc for the <a href="apidocs/index.html">latest source code</a></li>
 <!--li>A <a href="faq.html">FAQ</a> list</li-->
-<li>The <a href="http://joda-time.svn.sourceforge.net/viewvc/joda-time/trunk/JodaTimeContrib/jsptags/">Subversion repository</a></li>
+<li>The <a href="https://github.com/JodaOrg/joda-time-jsptags">GitHub</a> source repository</li>
 </ul>
 </p>
 </section>
@@ -52,7 +52,7 @@ Various documentation is available:
 <p>
 <a href="http://sourceforge.net/project/showfiles.php?group_id=97367&amp;package_id=161360">Release 1.0.2</a>
 is the current latest release.
-This release is a very minor patch to 1.0, fixing maven issues.
+This release is a very minor patch to 1.0, fixing Maven issues.
 </p>
 <p>
 The dependencies are Joda-Time 1.0 or later, the Servlet 2.4 API, the JSP 2.0 API,
