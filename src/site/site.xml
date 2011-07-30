@@ -22,7 +22,8 @@
     <menu name="Joda Time JSP tags">
       <item name="Overview" href="index.html"/>
       <item name="User guide" href="userguide.html"/>
-      <item name="Javadoc (Release)" href="/api-release/index.html"/>
+      <item name="Javadoc" href="apidocs/index.html"/>
+      <!--item name="Javadoc (Release)" href="/api-release/index.html"/-->
       <item name="License" href="licensecover.html"/>
       <item name="Release notes" href="changes-report.html"/>
       <item name="Download" href="http://sourceforge.net/projects/joda-time/files/joda-time-jsptags/"/>

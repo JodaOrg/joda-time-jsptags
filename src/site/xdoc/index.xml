@@ -28,8 +28,8 @@ As a flavour of the tags, here's how to format a Joda-Time object in JSP:
   &lt;% pageContext.setAttribute("now", new org.joda.time.DateTime()); %&gt;
   <b>&lt;joda:format value="${now}" style="SM" /&gt;</b>
 </source>
-Version 1.0.2 was released on 2008-03-15 -
-<a href="http://sourceforge.net/project/showfiles.php?group_id=97367&amp;package_id=161360">Download now</a>
+Version 1.1 was released on 2011-07-30 -
+<a href="https://sourceforge.net/projects/joda-time/files/joda-time-jsptags/1.1/">Download now</a>
 </p>
 </section>
 
@@ -50,14 +50,15 @@ Various documentation is available:
 
 <section name="Releases">
 <p>
-<a href="http://sourceforge.net/project/showfiles.php?group_id=97367&amp;package_id=161360">Release 1.0.2</a>
+<a href="https://sourceforge.net/projects/joda-time/files/joda-time-jsptags/1.1/">Release 1.1</a>
 is the current latest release.
-This release is a very minor patch to 1.0, fixing Maven issues.
+This release is basically the same as v1.0, but using Java 5 compilation and with updated maven info.
 </p>
 <p>
-The dependencies are Joda-Time 1.0 or later, the Servlet 2.4 API, the JSP 2.0 API,
-and JSTL 1.1 API.
-JDK 1.4 or later is required, and there is no testing on earlier JDKs.
+The dependencies are Joda-Time 1.0 or later (including v2.0 or later),
+the Servlet 2.4 API, the JSP 2.0 API, JSTL 1.1 API and JDK 1.5 or later.
+All maven dependencies are <a href="http://maven.apache.org/guides/introduction/introduction-to-dependency-mechanism.html">provided</a>,
+thus there is no automatic dependency resolution.
 </p>
 </section>
 
@@ -65,7 +66,7 @@ JDK 1.4 or later is required, and there is no testing on earlier JDKs.
 <section name="Support">
 <p>
 The Joda-Time JSP tags library was contributed to Joda-Time by Jim Newsham.
-It is based on the code at <a href="http://jakarta.apache.org/taglibs">Jakarta Taglibs</a>.
+It is based on the code from Jakarta Taglibs, now <a href="http://tomcat.apache.org/taglibs/index.html">Tomcat Taglibs</a>.
 </p>
 <p>
 For support on bugs, using the library or to volunteer please contact the <a href="mail-lists.html">mailing list</a>.

@@ -19,7 +19,7 @@ This is the same license as <a href="http://ant.apache.org">Ant</a>,
 </p>
 <p>
 The JSP tags contributed library is an edited version of code originally
-from <a href="http://jakarta.apache.org/taglibs">Jakarta Taglibs</a>.
+from Jakarta Taglibs, now <a href="http://tomcat.apache.org/taglibs/index.html">Tomcat Taglibs</a>.
 As a result, the NOTICE file contains the Apache information clause
 as well as the Joda-Time information clause as follows:
 <source>

@@ -1,10 +1,10 @@
-Joda-Time JSP tags contributed project version 1.0.2
-----------------------------------------------------
+Joda-Time JSP tags contributed project version 1.1
+--------------------------------------------------
 
 Joda-Time is a date and time handling library that seeks to replace the JDK
 Date and Calendar classes.
 
-This is the 1.0.2 release of the JSP tag library support classes.
+This is the 1.1 release of the JSP tag library support classes.
 These classes were converted from code at Jakarta Taglibs by Jim Newsham.
 Please check the NOTICE.txt for the Apache credit.
 
@@ -20,23 +20,28 @@ Unlike the fmt tags which work with java.util.Date and java.util.TimeZone object
 the Joda tags work with Joda DateTime, ReadableInstant, ReadablePartial,
 and DateTimeZone objects.  
 
+Note that I, Stephen Colebourne, am releasing this because an update needs to reach
+the maven repository. However, the code was not provided originally with unit tests.
+Therefore, please test the code in your environment before using in production.
+Or fork the GitHub project and provide some tests ;-)
 
-Changes since 1.0.1
+
+Changes since 1.0.2
 -------------------
-- Include .properties files in jar
+- Moved to Java 5
 
-- Changed maven definition for servlet jars [1841568]
+- Moved source code to GitHub
 
+- Changed to maven build
 
-Changes since 1.0
------------------
-- Fix missing directory tag in project.xml [1827409]
+- Mark all maven dependencies as "provided", so they are controlled by users
 
 
 Build
 -----
 Build-time dependencies are Joda 1.0 or later, the Servlet 2.4 API, the
-JSP 2.0 API, and JSTL 1.1 API. A source build can be achieved from ant or maven.
+JSP 2.0 API, and JSTL 1.1 API. A source build can be achieved from maven.
+The library is built with Java 5 and should work with Joda 2.0 or later.
 
 
 Setup
