@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0"?>
 
 <document>
 
@@ -11,7 +11,7 @@
 
 <section name="Joda Time - JSP tags">
 <p>
-<a href="/index.html">Joda-Time</a> provides a complete quality alternative
+<a href="http://www.joda.org/joda-time/">Joda-Time</a> provides a complete quality alternative
 to the JDK date and time classes.
 However, this causes issues when working with other libraries that expect
 a JDK object, such as the JSTL JSP tag library.
@@ -29,7 +29,7 @@ As a flavour of the tags, here's how to format a Joda-Time object in JSP:
   <b>&lt;joda:format value="${now}" style="SM" /&gt;</b>
 </source>
 Version 1.1.1 was released on 2011-11-24 -
-<a href="https://sourceforge.net/projects/joda-time/files/joda-time-jsptags/1.1.1/">Download now</a>
+<a href="download.html">Download now</a>
 </p>
 </section>
 
@@ -39,9 +39,7 @@ Version 1.1.1 was released on 2011-11-24 -
 Various documentation is available:
 <ul>
 <li>The user guide and tag description - <a href="userguide.html">user guide</a></li>
-<li>The javadoc for the <a href="api-release/index.html">current release</a></li>
-<li>The javadoc for the <a href="apidocs/index.html">latest source code</a></li>
-<!--li>A <a href="faq.html">FAQ</a> list</li-->
+<li>The <a href="apidocs/index.html">Javadoc</a></li>
 <li>The <a href="https://github.com/JodaOrg/joda-time-jsptags">GitHub</a> source repository</li>
 </ul>
 </p>
@@ -50,7 +48,7 @@ Various documentation is available:
 
 <section name="Releases">
 <p>
-<a href="https://sourceforge.net/projects/joda-time/files/joda-time-jsptags/1.1.1/">Release 1.1.1</a>
+<a href="download.html">Release 1.1.1</a>
 is the current latest release.
 This release is basically the same as v1.1, but with altered OSGI info.
 </p>
@@ -59,6 +57,9 @@ The dependencies are Joda-Time 1.0 or later (including v2.0 or later),
 the Servlet 2.4 API, the JSP 2.0 API, JSTL 1.1 API and JDK 1.5 or later.
 All maven dependencies are <a href="http://maven.apache.org/guides/introduction/introduction-to-dependency-mechanism.html">provided</a>,
 thus there is no automatic dependency resolution.
+</p>
+<p>
+Available in <a href="http://search.maven.org/#artifactdetails|joda-time|joda-time-jsptags|1.1.1|jar">Maven Central</a>.
 </p>
 </section>
 
@@ -69,8 +70,20 @@ The Joda-Time JSP tags library was contributed to Joda-Time by Jim Newsham.
 It is based on the code from Jakarta Taglibs, now <a href="http://tomcat.apache.org/taglibs/index.html">Tomcat Taglibs</a>.
 </p>
 <p>
-For support on bugs, using the library or to volunteer please contact the <a href="mail-lists.html">mailing list</a>.
-Due to spam, you must be subscribed to post to the mailing list.
+Support on bugs, library usage or enhancement requests is available on a best efforts basis.
+</p>
+<p>
+To suggest enhancements or contribute, please <a href="https://github.com/JodaOrg/joda-time-jsptags">fork the source code</a> on GitHub.
+Alternatively, use GitHub <a href="https://github.com/JodaOrg/joda-time-jsptags/issues">issues</a>.
+</p>
+<p>
+<br />
+</p>
+<p>
+<br />
+</p>
+<p>
+<br />
 </p>
 </section>
 </body>

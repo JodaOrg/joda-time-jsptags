@@ -142,8 +142,8 @@ var.  The scoped variable to set.
 scope.  The scope of the variable to set.
 
 
-Feedback
 --------
-All feedback is welcomed at joda-interest@lists.sourceforge.net.
+Home page: http://www.joda.org/joda-time-jsptags/
+GitHub: https://github.com/JodaOrg/joda-time-jsptags
 
 The Joda team

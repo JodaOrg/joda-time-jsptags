@@ -3,11 +3,19 @@
 <document>
   <properties>
     <title>Java date and time API - JSP tags - Changes</title>
-    <author email="scolebourne@users.sourceforge.net">Stephen Colebourne</author>
   </properties>
   <body>
 
     <!-- types are add, fix, remove, update -->
+    <release version="1.2" date="xxxx-xx-xx" description="Release 1.2">
+      <action dev="scolebourne" type="add" >
+        Home page at GitHub.
+      </action>
+      <action dev="scolebourne" type="update">
+        Change to use m2e Maven Eclipse
+      </action>
+    </release>
+
     <release version="1.1.1" date="2011-11-24" description="Release 1.1.1">
       <action dev="scolebourne" type="fix">
         Fix OSGi manifest

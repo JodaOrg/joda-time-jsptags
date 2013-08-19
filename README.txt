@@ -5,7 +5,7 @@ Joda-Time is a date and time library that vastly improves on the JDK.
 This separate project provides JSP tag support.
 
 See the home page for more details:
-http://joda-time.sourceforge.net/contrib/jsptags/index.html
+http://www.joda.org/joda-time-jsptags/
 
-The source code is held primarily at GitHub:
+The source code is held at GitHub:
 https://github.com/JodaOrg/joda-time-jsptags
